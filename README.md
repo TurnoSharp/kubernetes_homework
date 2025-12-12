@@ -6,10 +6,12 @@
   4. caddy-ingressclass.yml
   5. mycaddy.yaml
 ## Установка
-  gıt clone https://github.com/TurnoSharp/kubernetes_homework.git
-  cd ~/kubernetes_homework
-  kubectl apply -f ./
+  `gıt clone https://github.com/TurnoSharp/kubernetes_homework.git`
+  `cd ~/kubernetes_homework`
+  `kubectl apply -f ./`
+  
   Если кластер находится в VBox, **нобходимо пробросить порт 31443**
+  
   Так как caddy ожидает подключение по hostname, **необходимо добавить в hosts строчку `127.0.0.1  mongo.local`**
 ## Описание манифестов и их назначение
 ### mongodb-deployment.yml
